@@ -196,7 +196,7 @@ header{
 	position: relative;
 	height: 20px;
 }
-.navbar .navbar-collapse  src-btn{
+.navbar .navbar-collapse  .src-btn{
     background: transparent;
     border: none;
 }
