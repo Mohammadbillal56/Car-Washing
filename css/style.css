@@ -196,8 +196,8 @@ header{
 	position: relative;
 	height: 20px;
 }
-.navbar .navbar-collapse  button{
-	background: transparent;
+.navbar .navbar-collapse  src-btn{
+    background: transparent;
     border: none;
 }
 .navbar .navbar-collapse button .search-btn{
@@ -620,18 +620,18 @@ padding: 100px 0;
 .owl-carousel .owl-stage-outer{
     box-shadow: 0 0 182px 4px rgba(0,0,0,.07);
 }
-.owl-carousel .owl-nav button i{
-	border: 1px solid var(--hov-colour);
+.owl-carousel .owl-nav button svg{
+    border: 1px solid var(--hov-colour);
     padding: 12px;
     border-radius: 50%;
     background: var(--hov-colour);
     color: var(--h-colour);
     font-size: 20px;
 }
-.owl-carousel .owl-nav button i:hover{
-	background: var(--h-colour);
-	color: #fff;
-	border: 1px solid var(--h-colour);
+.owl-carousel .owl-nav button svg:hover{
+    background: var(--h-colour);
+    color: #fff;
+    border: 1px solid var(--h-colour);
     padding: 12px;
     border-radius: 50%;
 }
